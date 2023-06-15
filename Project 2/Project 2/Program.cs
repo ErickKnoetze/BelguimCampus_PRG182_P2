@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Globalization;
 
+
 class Program
 {
     static List<string> Items = new();
@@ -177,6 +178,23 @@ class Program
         }
 
     }
+
+    static void AddCart(string item, decimal price)
+    {
+        Items.Add(item);
+        Price.Add(price);
+
+    }
+
+    static void Checkout()
+    {
+        for (int i = 0; i < Items.Count; i++)
+        {
+            Console.WriteLine($"{Items[i].ToString()}       R{Math.Round(Price[i],2)}");
+        }
+        Console.WriteLine("Press enter to continue!");
+        Console.ReadLine();
+    }
     static void DisplayMainMenu()
     {
         Console.Clear();
@@ -199,16 +217,7 @@ class Program
         Console.WriteLine("(An egg on a english muffin)\n");
         Console.WriteLine("4. Back");
     }
-    static void Checkout()
-    {
-        int count = 1;
-        foreach (string item in Items)
-        {
-            Console.WriteLine($"{count}. {item}");
-        }
-        Console.WriteLine("");
-        Console.WriteLine("Press Enter to Continue");
-    }
+    
     static void DisplayCombos()
     {
         Console.Clear();
