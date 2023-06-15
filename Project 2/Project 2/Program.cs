@@ -6,7 +6,7 @@ using System.Globalization;
 class Program
 {
     static List<string> Items = new();
-    static List<decimal> Price = new();
+    static List<double> Price = new();
     static void Main(string[] args)
     {
 
@@ -30,15 +30,16 @@ class Program
                             switch (breakfastOption)
                             {
                                 case Breakfast.BreakfastSpecial:
-                                    Items.Add("Breakfast Special");
+                                    AddCart("Breakfast special", 55.00);
                                     break;
                                 case Breakfast.HashAndEgg:
-                                    Items.Add("Hashbrown & Eggs");
+                                    AddCart("Hashbrown and Egg", 56.45);
                                     break;
                                 case Breakfast.SundaySpecial:
-                                    Items.Add("Sunday Specials");
+                                    AddCart("Sunday Special", 65.90);
                                     break;
                                 case Breakfast.Back:
+                                   
                                     break;
                                 default:
                                     break;
@@ -179,11 +180,10 @@ class Program
 
     }
 
-    static void AddCart(string item, decimal price)
+    static void AddCart(string item, double price)
     {
         Items.Add(item);
         Price.Add(price);
-
     }
 
     static void Checkout()
