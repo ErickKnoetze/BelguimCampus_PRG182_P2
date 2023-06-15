@@ -13,3 +13,18 @@ C:\Users\erick\OneDrive - belgiumcampus.ac.za\Documents\Belgium\PRG 182\Project 
 C:\Users\erick\OneDrive - belgiumcampus.ac.za\Documents\Belgium\PRG 182\Project 2\Project 2\obj\Debug\net6.0\Project 2.pdb
 C:\Users\erick\OneDrive - belgiumcampus.ac.za\Documents\Belgium\PRG 182\Project 2\Project 2\obj\Debug\net6.0\Project 2.genruntimeconfig.cache
 C:\Users\erick\OneDrive - belgiumcampus.ac.za\Documents\Belgium\PRG 182\Project 2\Project 2\obj\Debug\net6.0\ref\Project 2.dll
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\bin\Debug\net6.0\Project 2.exe
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\bin\Debug\net6.0\Project 2.deps.json
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\bin\Debug\net6.0\Project 2.runtimeconfig.json
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\bin\Debug\net6.0\Project 2.dll
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\bin\Debug\net6.0\Project 2.pdb
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\obj\Debug\net6.0\Project 2.csproj.AssemblyReference.cache
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\obj\Debug\net6.0\Project 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\obj\Debug\net6.0\Project 2.AssemblyInfoInputs.cache
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\obj\Debug\net6.0\Project 2.AssemblyInfo.cs
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\obj\Debug\net6.0\Project 2.csproj.CoreCompileInputs.cache
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\obj\Debug\net6.0\Project 2.dll
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\obj\Debug\net6.0\refint\Project 2.dll
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\obj\Debug\net6.0\Project 2.pdb
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\obj\Debug\net6.0\Project 2.genruntimeconfig.cache
+C:\Users\erick\Source\Repos\BelguimCampus_PRG182_P2\Project 2\Project 2\obj\Debug\net6.0\ref\Project 2.dll

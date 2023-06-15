@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.Globalization;
 
 class Program
@@ -19,6 +20,7 @@ class Program
                 switch (option)
                 {
                     case MainMenu.Breakfast:
+
                         DisplayBreakfast();
                         Console.WriteLine("Please select an option:");
                         input = Console.ReadLine();
@@ -33,7 +35,7 @@ class Program
                                     Items.Add("Hashbrown & Eggs");
                                     break;
                                 case Breakfast.SundaySpecial:
-                                    Items.Add("Sunday Special");
+                                    Items.Add("Sunday Specials");
                                     break;
                                 case Breakfast.Back:
                                     break;
@@ -43,17 +45,105 @@ class Program
                         }
 
                         break;
+
                     case MainMenu.Combos:
+
+                        DisplayCombos();
+                        Console.WriteLine("Please select an option:");
+                        input = Console.ReadLine();
+                        if (Enum.TryParse(input, out Combos ComboOption))
+                        {
+                            switch (ComboOption)
+                            {
+                                case Combos.BurgerMeals:
+                                    break;
+                                case Combos.BreakfastCombos:
+                                    break;
+                                case Combos.Back:
+                                    break;
+                                default:
+                                    break;
+                            }
+
+                        }
                         break;
+
                     case MainMenu.Chips:
+
+                        DisplayChips();
+                        Console.WriteLine("Please select an option:");
+                        input = Console.ReadLine();
+                        if (Enum.TryParse(input, out Chips ChipsOption))
+                        {
+                            switch (ChipsOption)
+                            {
+                                case Chips.PotatoChips:
+                                    break;
+                                case Chips.CheesyChips:
+                                    break;
+                                case Chips.SweetPotatoChips:
+                                    break;
+                                case Chips.Back:
+                                    break;
+                                default:
+                                    break;
+                            }
+
+                        }
                         break;
+
                     case MainMenu.Burgers:
+
+                        DisplayBurgers();
+                        Console.WriteLine("Please select an option:");
+                        input = Console.ReadLine();
+                        if (Enum.TryParse(input, out Burgers BurgersOption))
+                        {
+                            switch (BurgersOption)
+                            {
+                                case Burgers.BasicBurgers:
+                                    break;
+                                case Burgers.GourmetBurgers:
+                                    break;
+                                case Burgers.Back:
+                                    break;
+                                default:
+                                    break;
+                            }
+
+                        }
                         break;
+
                     case MainMenu.Drinks:
+
+                        DisplayDrinks();
+                        Console.WriteLine("Please select an option:");
+                        input = Console.ReadLine();
+                        if (Enum.TryParse(input, out Drinks drinksOption))
+                        {
+                            switch (drinksOption)
+                            {
+                                case Drinks.SoftDrink:
+                                    break;
+                                case Drinks.Milkshake:
+                                    break;
+                                case Drinks.Juice:
+                                    break;
+                                case Drinks.HotDrink:
+                                    break;
+                                case Drinks.Back:
+                                    break;
+                                default:
+                                    break;
+                            }
+
+                        }
                         break;
                     case MainMenu.CheckOut:
+
                         Checkout();
                         break;
+
                     default:
                         break;
                 }
@@ -96,55 +186,127 @@ class Program
     }
     static void DisplayCombos()
     {
+        Console.Clear();
+        Console.WriteLine("1. Burger Combo");
+        Console.WriteLine("2. Breakfast Combos");
+        Console.WriteLine("3. Back");
 
     }
     static void DisplaySize()
     {
+        Console.Clear();
+        Console.WriteLine("1. Small");
+        Console.WriteLine("2. Medium");
+        Console.WriteLine("3. Large");
+        Console.WriteLine("4. Back");
 
     }
     static void DisplayChips()
     {
+        Console.Clear();
+        Console.WriteLine("1. Potato Chips");
+        Console.WriteLine("2. Cheesy Chips");
+        Console.WriteLine("3. Sweet Potato Chips");
+        Console.WriteLine("4. Back");
 
     }
     static void DisplayBurgers()
     {
+        Console.Clear();
+        Console.WriteLine("1. Basic Burgers");
+        Console.WriteLine("2. Gourmet Burgers");
+        Console.WriteLine("3. Back");
 
     }
     static void DisplayBasicBurgers()
     {
+        Console.Clear();
+        Console.WriteLine("1. Chicken Burger");
+        Console.WriteLine("2. Beef Burger");
+        Console.WriteLine("3. Cheese Bruger");
+        Console.WriteLine("4. Vegan Burger");
+        Console.WriteLine("5. Back");
 
     }
     static void DisplayGormetBurgers()
     {
-
+        Console.Clear();
+        Console.WriteLine("1. Bacon Burger");
+        Console.WriteLine("2. Rib Burger");
+        Console.WriteLine("3. Double Decker");
+        Console.WriteLine("4. Blue Cheese Burger");
+        Console.WriteLine("5. Back");
     }
     static void DisplayDrinks()
     {
-
+        Console.Clear();
+        Console.WriteLine("1. Soft Drinks");
+        Console.WriteLine("2. Milkshakes");
+        Console.WriteLine("3. Juices");
+        Console.WriteLine("4. Hot Drinks");
+        Console.WriteLine("5. Back");
     }
     static void DisplaySoftDrinks()
     {
-
+        Console.Clear();
+        Console.WriteLine("1. Cup");
+        Console.WriteLine("2. Bottle");
+        Console.WriteLine("3. Back");
     }
     static void DisplaySoftDrinksCup()
     {
+        Console.Clear();
+        Console.WriteLine("1. Coke");
+        Console.WriteLine("2. Pepsi");
+        Console.WriteLine("3. Fanta orange");
+        Console.WriteLine("4. Sprite");
+        Console.WriteLine("5. Creamsoda");
+        Console.WriteLine("6. Back");
 
     }
     static void DisplaySoftDrinksBottle()
     {
+        Console.Clear();
+        Console.WriteLine("1. Coke");
+        Console.WriteLine("2. Pepsi");
+        Console.WriteLine("3. Fanta orange");
+        Console.WriteLine("4. Fanta Grape");
+        Console.WriteLine("5. Sprite");
+        Console.WriteLine("6. Creamsoda");
+        Console.WriteLine("7. Back");
 
     }
     static void DisplayMilkshake()
     {
-
+        Console.Clear();
+        Console.WriteLine("1. Vanilla");
+        Console.WriteLine("2. Strawberry");
+        Console.WriteLine("3. Chocolate");
+        Console.WriteLine("4. Lime");
+        Console.WriteLine("5. Bubblegum");
+        Console.WriteLine("6. Banana");
+        Console.WriteLine("7. Back");
     }
     static void DisplayJuice()
     {
+        Console.Clear();
+        Console.WriteLine("1. Orange Juice");
+        Console.WriteLine("2. Apple Juice");
+        Console.WriteLine("3. Mango Juice");
+        Console.WriteLine("4. Guava Juice");
+        Console.WriteLine("5. Tropical Juice");
+        Console.WriteLine("6. MixedBerries Juice");
+        Console.WriteLine("7. Back");
 
     }
     static void DisplayHotDrinks()
     {
-
+        Console.Clear();
+        Console.WriteLine("1. Cappachino");
+        Console.WriteLine("2. Filter coffee");
+        Console.WriteLine("3. Milo");
+        Console.WriteLine("4. Hot Chocolate");
+        Console.WriteLine("5. Back");
     }
 
     enum MainMenu
@@ -178,7 +340,7 @@ class Program
     }
     enum Chips
     {
-        NormalChips = 1,
+        PotatoChips = 1,
         CheesyChips,
         SweetPotatoChips,
         Back
@@ -186,7 +348,7 @@ class Program
     enum Burgers
     {
         BasicBurgers = 1,
-        GormetBurgers,
+        GourmetBurgers,
         Back
     }
     enum BasicBurgers
@@ -197,9 +359,9 @@ class Program
         VeganBurger,
         Back
     }
-    enum GormetBurgers
+    enum GourmetBurgers
     {
-        BaconBurger,
+        BaconBurger = 1,
         RibBurger,
         DoubleDecker,
         BlueCheeseBurger,
@@ -237,8 +399,6 @@ class Program
         FantaGrape,
         Sprite,
         Creamsoda,
-        MountainDew,
-        Stoney,
         Back
 
     }
@@ -254,7 +414,7 @@ class Program
     }
     enum Juice
     {
-        Orange,
+        Orange = 1,
         Apple,
         Mango,
         Guava,
@@ -264,7 +424,7 @@ class Program
     }
     enum HotDrinks
     {
-        Cappachino,
+        Cappachino = 1,
         FilterCoffee,
         Milo,
         HotChocolate,

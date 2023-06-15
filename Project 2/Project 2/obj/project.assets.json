@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erick\\OneDrive - belgiumcampus.ac.za\\Documents\\Belgium\\PRG 182\\Project 2\\Project 2\\Project 2.csproj",
+      "projectUniqueName": "C:\\Users\\erick\\Source\\Repos\\BelguimCampus_PRG182_P2\\Project 2\\Project 2\\Project 2.csproj",
       "projectName": "Project 2",
-      "projectPath": "C:\\Users\\erick\\OneDrive - belgiumcampus.ac.za\\Documents\\Belgium\\PRG 182\\Project 2\\Project 2\\Project 2.csproj",
+      "projectPath": "C:\\Users\\erick\\Source\\Repos\\BelguimCampus_PRG182_P2\\Project 2\\Project 2\\Project 2.csproj",
       "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erick\\OneDrive - belgiumcampus.ac.za\\Documents\\Belgium\\PRG 182\\Project 2\\Project 2\\obj\\",
+      "outputPath": "C:\\Users\\erick\\Source\\Repos\\BelguimCampus_PRG182_P2\\Project 2\\Project 2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\erick\\AppData\\Roaming\\NuGet\\NuGet.Config",
