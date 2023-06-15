@@ -102,8 +102,10 @@ class Program
                             switch (BurgersOption)
                             {
                                 case Burgers.BasicBurgers:
+                                    DisplayBasicBurgers();
                                     break;
                                 case Burgers.GourmetBurgers:
+                                    DisplayGormetBurgers();
                                     break;
                                 case Burgers.Back:
                                     break;
@@ -124,12 +126,35 @@ class Program
                             switch (drinksOption)
                             {
                                 case Drinks.SoftDrink:
+                                    DisplaySoftDrinks();
+                                    Console.WriteLine("Please select an option:");
+                                    input = Console.ReadLine();
+                                    if (Enum.TryParse(input, out SoftDrink SoftDrinkOption))
+                                    {
+                                        switch (SoftDrinkOption)
+                                        {
+                                            case SoftDrink.cup:
+                                                DisplaySoftDrinksCup();
+                                                break;
+                                            case SoftDrink.Bottle:
+                                                DisplaySoftDrinksBottle();
+                                                break;
+                                            case SoftDrink.Back:
+                                                break;
+                                            default:
+                                                break;
+                                        }
+
+                                    }
                                     break;
                                 case Drinks.Milkshake:
+                                    DisplayMilkshake();
                                     break;
                                 case Drinks.Juice:
+                                    DisplayJuice();
                                     break;
                                 case Drinks.HotDrink:
+                                    DisplayHotDrinks();
                                     break;
                                 case Drinks.Back:
                                     break;
